@@ -1,4 +1,4 @@
-interface ButtonProps {
+type ButtonProps = {
   onClick: () => void;
   disabled?: boolean;
   loading?: boolean;
